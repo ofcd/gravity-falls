@@ -1,0 +1,207 @@
+@font-face{
+	font-family: eng;
+	src: url(eng.ttf);
+}
+
+@font-face{
+	font-family: rus;
+	src: url(rus.ttf);
+}
+
+.body{
+background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 85%, rgba(184,178,178,1) 100%);s
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	background: red;
+	height: 50px;
+}
+
+.banner{
+	background: url(blabla.jpg);
+	background-size: 100%;
+	height: 500px;
+	width: 1800px;
+	padding-top: 110px;
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+}
+
+.d-flex{
+	display: flex;
+}
+
+.story_n_graph_n_riddles{
+	background: none;
+	height: 500px;
+	margin-top: 25px;
+}
+
+.story{
+	background: url(paper.jpg);
+	background-size: 100%;
+	border-radius: 10px;
+	height: 475px;
+	width: 1300px;
+	margin-top: 15px;
+	margin-left: 42px;
+}
+
+.graph{
+	background: url(paper.jpg);
+	background-size: 100%;
+	border-radius: 10px;
+	height: 475px;
+	width: 450px;
+	margin-top: 15px;
+	margin-left: 57px;
+}
+
+.h1st{
+	color: red;
+	margin: 0;
+	text-align: center;
+	font-family: rus;
+}
+
+.story-i{
+	background: none;
+	height: 425px;
+	width: 700px;
+	margin-left: 15px;
+}
+
+.sg-image{
+	height: 100%;
+	width: 100%;
+}
+
+.sg-txt{
+	background: none;
+	height: 425px;
+	width: 510px;
+	margin-left: 60px;
+}
+
+.graph-img{
+	background: none;
+	width: 415px;
+	height: 250px;
+	margin-left: 18px;
+}
+
+.graph-txt{
+	background: none;
+	width: 415px;
+	height: 165x;
+	margin-top: 10px;
+	margin-left: 18px;
+}
+
+.riddles{
+	background: url(paper.jpg);
+	background-size: 100%;
+	border-radius: 10px;
+	height: 425px;
+	width: 1795px;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+.riddles-img{
+	background: none;
+	width: 800px;
+	height: 400px;
+	margin-left: 25px;
+	margin-top: 12px;
+}
+
+.riddles-txt{
+	background: none;
+	width: 850px;
+	height: 400px;
+	margin-left: 100px;
+	margin-top: 12px;
+}
+
+.name{
+	background: none;
+	height: 350px;
+	width: 900px;
+	margin-left: 210px;
+}
+
+.name-h1{
+	text-align: left;
+	font-family: eng;
+	color: white;
+	font-size: 55px;
+}
+
+.name-txt{
+	text-align: right;
+	font-family: eng;
+	color: white;
+	font-size: 15px;
+	margin-top: 70px;
+}
+
+.ava{
+	background: blue;
+	height: 50px;
+	width: 300px;
+}
+
+.about{
+	background: blue;
+	height: 50px;
+	width: 750px;
+	margin-left: 900px;
+}
+
+.outro{
+	background: blue;
+	height: 50px;
+	margin-top: 50px;
+}
+
+.u-txt{
+	color: gray;
+	margin: 0;
+	text-align: right;
+	font-family: rus;
+	font-size: 20px;
+}
+
+.d-txt{
+	color: gray;
+	margin: 0;
+	text-align: right;
+	font-family: rus;
+	font-size: 20px;
+	margin-top: 12px;	
+}
+
+.riddles-h{
+	color: red;
+	margin: 0;
+	font-family: rus;
+	margin-top: 15px;
+}
+
+.g-txt{
+	color: gray;
+	margin: 0;
+	text-align: left;
+	font-family: rus;
+	font-size: 20px;
+	margin-top: 15px;
+}
